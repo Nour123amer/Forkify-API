@@ -1,19 +1,4 @@
-// var myHttp = new XMLHttpRequest;
-// myHttp.open('GET', 'https://forkify-api.herokuapp.com/api/search?q=pizza');
-// myHttp.send();
-// var recipes =[];
-// myHttp.onreadystatechange = function () {
-//     if (myHttp.readyState === 4) {
-//         // Parse the response JSON
-//         var result = JSON.parse(myHttp.response);
-//          productList = result.recipes;
-//         // console.log(productList);
-//         displayData(productList);
-//     }
-// }
-
-
-// console.log(productList);
+getPizza();
 
 var pizzaRecipes = [];
  async function getPizza(){
@@ -64,10 +49,3 @@ var dataContainer = document.querySelector('.dataContainer');
 
     
         
-
-
-// var dataContainer = document.querySelector('.dataContainer');
-// console.log(dataContainer);
-
-
-// displayData();
